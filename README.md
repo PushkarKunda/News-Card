@@ -1,18 +1,34 @@
-# React + Vite
+# AI News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, dynamic React application that displays AI-curated news using a stunning light, soft-glass aesthetic. Built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- **Soft Glassmorphism UI**: A premium, clean, and elegant design utilizing glass-like translucent backgrounds and soft drop shadows.
+- **Dynamic Content**: Displays a curated feed of news items with smooth micro-animations.
+- **Responsive Layout**: Optimized for various screen sizes, ensuring a seamless reading experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js installed on your machine.
+- Git (optional, for version control).
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Installation
 
-Note: This will impact Vite dev & build performances.
+1. Navigate to the project directory:
+   ```bash
+   cd NewsCard
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Technologies Used
+- React
+- Vite
+- Vanilla CSS (Glassmorphism styling)
